@@ -4,7 +4,7 @@ go 1.26.1
 
 require (
 	github.com/gobwas/glob v0.2.3
-	github.com/in-toto/go-witness v0.10.0
+	github.com/in-toto/go-witness v0.10.1-0.20260504160454-c9646dbc7547
 	github.com/invopop/jsonschema v0.14.0
 	github.com/olekukonko/tablewriter v1.1.4
 	github.com/open-policy-agent/opa v1.15.2
@@ -47,22 +47,22 @@ require (
 	github.com/anchore/go-struct-converter v0.1.0 // indirect
 	github.com/andybalholm/brotli v1.2.1 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
-	github.com/aws/aws-sdk-go-v2 v1.41.5 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.41.6 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.32.14 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.14 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.21 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.21 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.21 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.22 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.22 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/codebuild v1.68.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/codebuild v1.68.14 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.21 // indirect
-	github.com/aws/aws-sdk-go-v2/service/kms v1.50.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/kms v1.50.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/signin v1.0.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.30.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.41.10 // indirect
-	github.com/aws/smithy-go v1.24.3 // indirect
+	github.com/aws/smithy-go v1.25.0 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/bodgit/plumbing v1.3.0 // indirect
@@ -253,8 +253,8 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.2 // indirect
-	k8s.io/api v0.35.3 // indirect
-	k8s.io/client-go v0.35.3 // indirect
+	k8s.io/api v0.35.4 // indirect
+	k8s.io/client-go v0.35.4 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260330154417-16be699c7b31 // indirect
 	k8s.io/utils v0.0.0-20260319190234-28399d86e0b5 // indirect
