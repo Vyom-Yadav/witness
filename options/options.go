@@ -71,6 +71,22 @@ func addFlags[T any](prefix string, regName string, options []registry.Configure
 				})
 			}
 
+		case *registry.ConfigOption[T, int64]:
+			{
+				val := cmd.Flags().Int64(name, optT.DefaultVal(), opt.Description())
+				optSettersMap[regName] = append(optSettersMap[regName], func(a T) (T, error) {
+					return optT.Setter()(a, *val)
+				})
+			}
+
+		case *registry.ConfigOption[T, []int]:
+			{
+				val := cmd.Flags().IntSlice(name, optT.DefaultVal(), opt.Description())
+				optSettersMap[regName] = append(optSettersMap[regName], func(a T) (T, error) {
+					return optT.Setter()(a, *val)
+				})
+			}
+
 		case *registry.ConfigOption[T, time.Duration]:
 			{
 				val := cmd.Flags().Duration(name, optT.DefaultVal(), opt.Description())
